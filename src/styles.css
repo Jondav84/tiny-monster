@@ -1,0 +1,33 @@
+/* styles.css */
+.Pokecard {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.Pokecard img {
+    width: 100px;
+    height: 100px;
+}
+
+.Pokedex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid red;
+}
+
+.Pokedex.winner {
+    border: 2px solid green;
+}
+
+.Pokedex .winner-message {
+    font-weight: bold;
+    color: green;
+}
+
+.App {
+    text-align: center;
+}
